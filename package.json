@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Boilerplate with logging and error handling for node-express app",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon --ignore node_modules/ --ignore tests/ index.js",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.15.2",
+    "helmet": "3.5.0",
+    "winston": "2.3.1"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "istanbul": "0.4.5",
+    "mocha": "3.2.0",
+    "nodemon": "1.11.0",
+    "sinon": "1.17.7",
+    "sinon-chai": "2.8.0"
+  }
+}
